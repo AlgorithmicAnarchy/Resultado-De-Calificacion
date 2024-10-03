@@ -37,7 +37,6 @@ namespace ResultadoDeCalificacion
             {
                 Console.WriteLine("Este estudiante ha reprobado. Procederá al completivo.");
 
-                // Calcular completivo
                 double CPromedio = promedio / 2;
                 Console.WriteLine("Nota del estudiante en el completivo:");
                 double notaCompletivo = double.Parse(Console.ReadLine());
